@@ -1,0 +1,14 @@
+@import url(fonts.css);
+
+:root {
+  /* COLORS */
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #000000;
+  --bg-color: #2962ff;
+
+  /* FONTS */
+  --ff-sans: "Figtree", sans-serif;
+  --fw-base: 300;
+  --fw-md: 600;
+  --fw-bold: 700;
+}
