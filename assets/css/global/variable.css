@@ -3,12 +3,13 @@
 :root {
   /* COLORS */
   --text-color-primary: #ffffff;
+  --text-color-primary-hover: #cdc5c5;
   --text-color-secondary: #000000;
   --bg-color: #2962ff;
 
   /* FONTS */
   --ff-sans: "Figtree", sans-serif;
-  --fw-base: 300;
+  --fw-base: 200;
   --fw-md: 600;
   --fw-bold: 700;
 }
