@@ -91,7 +91,7 @@ form button {
   background-color: var(--bg-color);
   border: none;
   width: 100%;  
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 7px;
   color: var(--text-color-primary);
   font-size: 1em;
