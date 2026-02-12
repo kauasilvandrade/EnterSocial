@@ -4,12 +4,14 @@
   /* COLORS */
   --text-color-primary: #ffffff;
   --text-color-primary-hover: #cdc5c5;
-  --text-color-secondary: #000000;
+  --text-color-secondary: rgb(23, 23, 23);
   --bg-color: #2962ff;
+  --bg-color-form: #ffffff;
+  --border: #4f506589;
 
   /* FONTS */
   --ff-sans: "Figtree", sans-serif;
   --fw-base: 200;
-  --fw-md: 600;
+  --fw-md: 500;
   --fw-bold: 700;
 }
