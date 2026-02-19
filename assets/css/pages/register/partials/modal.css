@@ -1,6 +1,4 @@
 .error_email {
-  /* display: flex; */
-  align-items: center;
   padding: 1rem;
   position: absolute;
   top: 35rem;
@@ -9,6 +7,11 @@
   color: white;
   border: none;
   border-radius: 10px;
+}
+
+.error_email .flex {
+  display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 

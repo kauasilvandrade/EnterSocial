@@ -69,13 +69,15 @@
   </main>
 
   <dialog id="modal-1" class="error_email">
-    <div class="icon">
-      <i class="fa-solid fa-circle-exclamation"></i>
+    <div class="flex">
+      <div class="icon">
+        <i class="fa-solid fa-circle-exclamation"></i>
+      </div>
+      <p>The provided email is already taken.</p>
+      <button class="close-modal" data-modal="modal-1" type="button">
+        <i class="fa-solid fa-x"></i>
+      </button>
     </div>
-    <p>The provided email is already taken.</p>
-    <button class="close-modal" data-modal="modal-1" type="button">
-      <i class="fa-solid fa-x"></i>
-    </button>
   </dialog> 
 
   <script src="assets/js/pages/register/register.js" type="module"></script>
