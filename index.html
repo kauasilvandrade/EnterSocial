@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enter Social - Login </title>
 
+  <!-- FONTS -->
+  <script src="https://kit.fontawesome.com/ca4876cb59.js" crossorigin="anonymous"></script>
+  
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/pages/index/index.css">
 </head>
@@ -56,6 +59,21 @@
     </section>
 
   </main>
+
+  <dialog open id="modal-2" class="verified_email">
+    <h3>Verification Required</h3>
+    <p>Enter the code sent to <div id="emailUser">kauaa422@gmail.com</div></p>
+    <label for="code">6-Digit Code</label>
+    <input type="number" name="code" id="code">
+    <div class="info">
+      <div class="email_icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <span>Can't find your verification code? Make sure <br> to check your spam folder</span>
+    </div>
+    <button>Confirm & Signup</button>
+    <p>Can’t access your account? <a href="">Contact Support</a></p>
+  </dialog>
 
   <script src="assets/js/pages/index/index.js" type="module"></script>
 </body>
