@@ -1,1 +1,28 @@
-.error_email {}
+.error_email {
+  /* display: flex; */
+  align-items: center;
+  padding: 1rem;
+  position: absolute;
+  top: 35rem;
+  left: 33rem;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  gap: 0.5rem;
+}
+
+.error_email .icon {
+  color: rgb(222, 49, 49);
+  font-size: 1.2em;
+}
+
+.error_email button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1em;
+  width: 1.4rem;
+  cursor: pointer;
+  outline: none;
+}
