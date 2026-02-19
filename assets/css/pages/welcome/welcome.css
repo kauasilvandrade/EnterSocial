@@ -1,0 +1,23 @@
+@import url(../../global/global.css);
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  width: 30rem;
+  line-height: 1.7rem;
+}
+
+.introduction a {
+  font-size: 1em;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.introduction a:hover {
+  border-bottom: none;
+}
