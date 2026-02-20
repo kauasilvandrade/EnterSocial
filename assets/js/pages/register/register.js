@@ -36,6 +36,8 @@ export function registrarUsuario(event) {
   input_email.value = ""
   
   alert("Usuário cadastrado com sucesso!")
+
+  window.location.href = "index.html"
 }
 
 btnRegister.addEventListener("click", registrarUsuario)
